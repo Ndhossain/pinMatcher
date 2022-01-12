@@ -12,7 +12,7 @@ const inputButtons = document.getElementsByClassName('button');
 let screenValue = '';
 for (item of inputButtons){
     item.addEventListener('click', (e) => {
-        buttonText = e.target.innerText;
+        let buttonText = e.target.innerText;
         if (buttonText == 'C') {
             screen.value = screenValue;
         } else if (buttonText == '<'){
