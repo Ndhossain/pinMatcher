@@ -34,5 +34,6 @@ function submitButton() {
     } else {
         generateKey()
         document.getElementById('wrongPin').style.display = "block";
+        screen.value = "";
     }
 }
