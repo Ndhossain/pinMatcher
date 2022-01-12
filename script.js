@@ -4,6 +4,7 @@ function generateKey(){
     const pin = Math.floor(1000 + Math.random() * 9000);
     pinValue.value = pin;
     document.getElementById('rightPin').style.display = "none";
+    screen.value = "";
 }
 
 // input buttons
